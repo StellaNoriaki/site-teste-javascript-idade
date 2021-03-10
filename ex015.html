@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Idades
+    </title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Age Verifier</h1>
+    </header>
+
+    <section>
+
+        <div id="agePhoto">
+        <p>
+            Ano de nascimento: <input type="number" id="agetxt" min="0">
+        </p>
+
+        <p>
+            <input type="radio" name="sexo" id="sex1">
+            <label for="sex1">Masculino</label>
+            <input type="radio" name="sexo" id="sex2">
+            <label for="sex2">Feminino</label>
+            
+        </p>
+        <p>
+            <input type="button" value="Verificar" id="verify" onclick="verificar()">
+        </p>
+
+        </div>
+
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

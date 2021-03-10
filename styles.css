@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(104, 104, 221);
+    font: normal 15pt Arial;
+    color: white !important;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+}
+
+section{
+    background-color: white;
+    border-radius: 3.5px;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    color: rgb(35, 96, 49);
+    text-justify:auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.603);
+}
+
+footer{
+    text-align: center;
+    margin: auto;
+}
+
+input#verify{
+    background-color: green;
+    color: white;
+    border: none;
+    margin: auto;
+    padding: 10px 15px;
+
+font: normal 20px Arial ;
+
+}
